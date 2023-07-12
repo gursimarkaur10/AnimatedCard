@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated card</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <div class="product-card">
+        <div class="logo-cart">
+            <img src="images/logos.png" alt="">
+            <i class="fa-solid fa-bag-shopping"></i>
+        </div>
+        <div class="main-images">
+            <img class="blue active" src="images/bluee.jpg" id="blue" alt="blue">
+            <img class="black" src="images/black.jpg" id="black" alt="blue">
+            <img class="green" src="images/green.jpg" id="green" alt="blue">
+        </div>
+        <div class="shoes-details">
+            <span class="shoe-name">ADDIDAS GAZE ZX</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, consequuntur voluptate?</p>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </div>
+        </div>
+        <div class="color-price">
+            <div class="color-option">
+                <span class="color">Colour:</span>
+                <div class="circles">
+                    <span class="circle blue active" id="blue"></span>
+                    <span class="circle black" id="black"></span>
+                    <span class="circle green" id="green"></span>
+                </div>
+            </div>
+            <div class="price">
+                <span class="price-num">$09.00</span>
+                <span class="price-letter">Nine dollar only</span>
+            </div>
+        </div>
+        <div class="button">
+            <div class="button-layer"></div>
+            <button>Add to cart</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
